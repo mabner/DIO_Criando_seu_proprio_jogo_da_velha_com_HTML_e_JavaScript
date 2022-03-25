@@ -115,6 +115,8 @@ function checaSequencia(posicao1, posicao2, posicao3) {
 	return eigual;
 }
 
+// TODO: Add button to toss the coin
+
 function reiniciar() {
 	vencedor = null;
 	vencedorSelecionado.innerHTML = '';
