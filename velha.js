@@ -114,3 +114,16 @@ function checaSequencia(posicao1, posicao2, posicao3) {
 	}
 	return eigual;
 }
+
+function reiniciar() {
+	vencedor = null;
+	vencedorSelecionado.innerHTML = '';
+
+	for (var i = 1; i <= 9; i++) {
+		quadrado = document.getElementById(i);
+		quadrado.style.background = '#eee';
+		quadrado.style.color = '#eee';
+		quadrado.innerHTML = '-';
+	}
+	mudarJogador('X');
+}
