@@ -1,3 +1,3 @@
-function escolherQuadrado() {
-	console.log('quadrado clicado');
+function escolherQuadrado(btn) {
+	console.log(`quadrado ${btn} clicado`);
 }
